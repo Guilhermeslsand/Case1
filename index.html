@@ -10,26 +10,18 @@
     <h1>Escolha o Trabalho</h1>
 
     <div class="work-container">
-        <div class="work-item">
-            <button onclick="window.location.href='case1/index.html'">Abrir Trabalho 1</button>
-            <img src="readme/Case1.png" alt="Imagem do Trabalho 1" class="work-image">
-        </div>
-        <div class="work-item">
-            <button onclick="window.location.href='case2/index.html'">Abrir Trabalho 2</button>
-            <img src="readme/Case2.png" alt="Imagem do Trabalho 2" class="work-image">
-        </div>
+        <a href="case1/index.html" class="work-item">
+            <img src="readme/Case1.png" alt="Trabalho 1" class="work-image">
+        </a>
+        <a href="case2/index.html" class="work-item">
+            <img src="readme/Case2.png" alt="Trabalho 2" class="work-image">
+        </a>
     </div>
 
     <audio id="backgroundMusic" loop autoplay>
         <source src="/music.mp3" type="audio/mpeg">
         Seu navegador não suporta áudio.
     </audio>
-
-    <script>
-        // Função para controlar a música (opcionalmente pode adicionar controles)
-        const backgroundMusic = document.getElementById('backgroundMusic');
-        // backgroundMusic.volume = 0.5; // Ajusta o volume se desejar
-    </script>
 
 </body>
 </html>
